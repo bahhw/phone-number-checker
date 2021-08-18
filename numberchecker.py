@@ -10,5 +10,5 @@ def numChecker(phoneNumber):
     info.append(carrier.name_for_number(phone,"es"))
     return info
 
-phoneNumber = input("Introduce un Numero de Telefono: ")
+phoneNumber = input("Enter a phone number: ")
 print(numChecker(phoneNumber))
